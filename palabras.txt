@@ -9,3 +9,5 @@ melocoton
 mango
 naranja
 pistacho
+naranja
+fresa
