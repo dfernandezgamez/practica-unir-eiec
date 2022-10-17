@@ -18,7 +18,8 @@ def sort_list(items, ascending=True):
 
 
 def remove_duplicates_from_list(items):
-    return list(set(items))
+    items = list(dict.fromkeys(items))
+    return items
 
 
 if __name__ == "__main__":
